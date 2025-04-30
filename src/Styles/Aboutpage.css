@@ -1,0 +1,89 @@
+ .about-section {
+    padding: 60px 20px;
+    background-color: #f9f9f9;
+    font-family: 'Poppins', sans-serif;
+
+  }
+  
+  .about-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .about-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  .about-heading {
+    margin-bottom: 1.5rem;
+  }
+  
+  .about-heading.center {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #00cc88; 
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    color: #6b7280; 
+    font-weight: 500;margin-top: 20px;
+  }
+  
+  .about-text {
+    color: #4b5563; 
+    margin-bottom: 1rem;
+    line-height: 1.6;
+  }
+  
+  .about-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-card {
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .card-title.mission {
+    color: #2563eb; 
+  }
+  
+  .card-title.vision {
+    color: #16a34a; 
+  }
+  
+  .about-list {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+    color: #4b5563;
+  }
+  .about-list li{
+    margin-bottom: 10px;
+  }
